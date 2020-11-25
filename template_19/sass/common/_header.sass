@@ -4,11 +4,16 @@
     height: 100vh
     background-size: cover
     font-family: 'Montserrat'
+    @media screen and ( max-width: 700px )
+        max-width: 100%
 
 .top
     display: flex
     justify-content: space-between
     padding: 50px 40px
+    @media screen and ( max-width:992px  )
+        vertical-align: middle
+        align-items: center
 
 .logo
     display: flex
@@ -28,13 +33,33 @@
     font-weight: bold
 
 .navbar
-    margin-top: 5px
+    display: flex
+    transition: 1s
+    @media screen and ( max-width:992px )
+        font-weight: bold
+        font-size: 30px
+        text-align: center
+        flex-direction: column
+        position: absolute
+        top: -100%
+        left: 0
+        width: 100%
+        height: 100%
+        background-color: #5c5c5c
+        &.is-active
+            top: 0
 
-.nav
+.nav__search
+    @media screen and ( max-width:992px )
+        width: 30px
+
+.nav__link
     margin-right: 25px
     color: white
     text-decoration: none
     cursor: pointer
+    @media screen and ( max-width:992px )
+        padding: 30px 0
 
 .nav:hover
     color: #ccc
@@ -51,6 +76,11 @@
     margin: 0 auto
     font-size: 70px
     color: #fff
+    @media screen and ( max-width: 768px  )
+        max-width: 600px
+    @media screen and ( max-width:600px  )
+        font-size: 50px
+        line-height: 60px
 
 .color__text--header
     color: #ed6950

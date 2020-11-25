@@ -17,14 +17,19 @@
                     <a href="#" class="logo__text">Polind</a>
                 </div>
                 <div class="navbar">
-                    <a href="#" class="nav">Guide</a>
-                    <a href="#" class="nav">Journey</a>
-                    <a href="#" class="nav">Hotels</a>
-                    <a href="#" class="nav">Travelers</a>
-                    <a href="#" class="nav">
-                        <img src="img/Search.png" alt="">
+                    <a href="#" class="nav__link">Guide</a>
+                    <a href="#" class="nav__link">Journey</a>
+                    <a href="#" class="nav__link">Hotels</a>
+                    <a href="#" class="nav__link">Travelers</a>
+                    <a href="#" class="nav__link">
+                        <img class="nav__search" src="img/Search.png" alt="">
                     </a>
                 </div>
+                <button class="hamburger hamburger--elastic" type="button">
+                    <span class="hamburger-box">
+                      <span class="hamburger-inner"></span>
+                    </span>
+                  </button>
             </div>
             <div class="header__block">
                 <h1 class="header__main--text">The most beautiful<b class="color__text--header"> places in the world.</b></h1>
@@ -36,43 +41,43 @@
             <p class="cards__text">Popular places to discover</p>
             <div class="cards__list">
                 <div class="cards__item">
-                    <img src="/img/dom.png" alt="" class="cards__img">
+                    <img src="../template_19/img/dom.png" alt="" class="cards__img">
                     <div class="cards__info">
-                        <p class="text__cards--info">The first mention of this defensive fortress at the entrance to the Gulf of Naples dates back to 474 BC. It was erected by Hieron I of Syracuse.</p>
+                        <p class="text__cards--info">back to 474 BC. It was erected by Hieron I of Syracuse.</p>
                         <a target="blank" href="https://fishki.net/2939468-20-samyh-krasivyh-i-velichestvennyh-zamkov-mira.html" 
-                        class="buuton__cards--info btn">Continuation of the text</a>
+                        class="buuton__cards--info btn"> text</a>
                     </div>
                 </div>
                 <div class="cards__item p-left">
-                    <img src="/img/gora.png" alt="" class="cards__img">
+                    <img src="../template_19/img/gora.png" alt="" class="cards__img">
                     <div class="cards__info">
-                        <p class="text__cards--info">Vesuvius is the only volcano in continental Europe that has erupted in the past 100 years. The famous eruption in 79 BC wiped out the city of Pompeii from the face of the earth.</p>
+                        <p class="text__cards--info"> eruption in 79 BC wiped out the city of Pompeii from the face of the earth.</p>
                         <a target="blank" href="https://zen.yandex.ru/media/id/5c2386d4386e1300aa8082e4/20-samyh-vysokih-gor-5c3f14dc04bcd000ab92f170" 
-                        class="buuton__cards--info btn">Continuation of the text</a>
+                        class="buuton__cards--info btn"> text</a>
                     </div>
                 </div>
                 <div class="cards__item p-left">
-                    <img src="/img/gorod.png" alt="" class="cards__img">
+                    <img src="../template_19/img/gorod.png" alt="" class="cards__img">
                     <div class="cards__info ">
-                        <p class="text__cards--info">A city on the coast of the Arabian Gulf in the Emirates, which is famous for its luxury and large shops, ultra-modern architecture, restaurants and nightlife.</p>
+                        <p class="text__cards--info"> its luxury and large shops, ultra-modern architecture, restaurants and nightlife.</p>
                         <a target="blank" href="https://zen.yandex.ru/media/id/5aabfd2a55876b4825667ff2/top-25-samyh-krasivyh-gorodov-v-mire-5aaeab00f03173a7407ffb2b" 
-                        class="buuton__cards--info btn">Continuation of the text</a>
+                        class="buuton__cards--info btn"> text</a>
                     </div>
                 </div>
                 <div class="cards__item p-left">
-                    <img src="/img/more.png" alt="" class="cards__img">
+                    <img src="../template_19/img/more.png" alt="" class="cards__img">
                     <div class="cards__info">
-                        <p class="text__cards--info">A favorite destination for budding travelers - and neither cultural background nor income level plays a significant role.</p>
+                        <p class="text__cards--info"> background nor income level plays a significant role.</p>
                         <a target="blank" href="https://krasota.ru/posts/samyie-krasivyie-morya-50-foto" 
-                        class="buuton__cards--info btn">Continuation of the text</a>
+                        class="buuton__cards--info btn"> text</a>
                     </div>
                 </div>
                 <div class="cards__item p-left">
-                    <img src="/img/less.png" alt="" class="cards__img">
+                    <img src="../template_19/img/less.png" alt="" class="cards__img">
                     <div class="cards__info">
-                        <p class="text__cards--info">The stunning beauty of the Daintree forests, according to scientists, is approximately 160 million years old! This is one of the most ancient rainforests on Earth, preserved to this day.</p>
+                        <p class="text__cards--info"> This is one of the most ancient rainforests on Earth.</p>
                         <a target="blank" href="https://iledebeaute.ru/puteshestviya/2015/2/20/51485/" 
-                        class="buuton__cards--info btn">Continuation of the text</a>
+                        class="buuton__cards--info btn"> text</a>
                     </div>
                 </div>
             </div>
@@ -84,7 +89,7 @@
                     <div class="search__group">
                         <input class="input__text" type="text" placeholder="Search place...">
                         <button class="search__btn" type="submit">
-                            <img src="/img/Search.png" alt="">
+                            <img src="../template_19/img/Search.png" alt="">
                         </button>
                     </div>
                   </form>
@@ -94,7 +99,7 @@
                            <a class="button__search" href="#">travelers</a>
                            <a class="button__search" href="#">Gulde</a>
                        </div>
-                       <div class="middle__button-2">
+                       <div class="middle__button">
                         <a class="button__search" href="#">Mazury</a>
                         <a class="button__search" href="#">Cracow</a>
                         <a class="button__search" href="#">Zacopane</a>
@@ -180,5 +185,13 @@
             wrap.style = undefined;
         });
     </script>
+    <script>
+        var hamburger = document.querySelector(".hamburger"),
+         nav = document.querySelector(".navbar");
+        hamburger.addEventListener("click", function() {
+          hamburger.classList.toggle("is-active");
+          nav.classList.toggle("is-active");
+        });
+      </script>
 </body>
 </html>

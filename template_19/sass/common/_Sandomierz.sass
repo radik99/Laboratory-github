@@ -1,8 +1,7 @@
 
 .Sandomierz
-    background-image: url(../img/SAN.png)
+    background: url(../img/SAN.png)
     background-repeat: no-repeat
-    background-size: cover
 
 .container
     max-width: 1170px
@@ -26,13 +25,25 @@
     color: #606f81
     font-size: 12px
     line-height: 25px
+    @media screen and ( max-width: 1060px  )
+        font-size: 18px
+        font-weight: bold
 
 .box
     display: flex
     justify-content: space-between
+    @media screen and ( max-width: 1060px )
+        flex-direction: column
+        text-align: center
+        align-items: center
+        padding: 100px 0
 
 .box__images
     max-width: 500px
+    @media screen and ( max-width:992px  )
+        max-width: 100%
+    @media screen and ( max-width: 1060px )
+        padding: 50px 0
 
 .box__button
     padding: 15px 30px
@@ -40,3 +51,7 @@
     background-color: #ffc74a
     border-radius: 50px
     text-decoration: none
+
+.Sandomierz__container
+    @media screen and ( max-width:992px  )
+        padding: 0 20px
