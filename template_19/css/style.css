@@ -283,8 +283,9 @@ body {
 .cards__img {
   width: 100%;
   vertical-align: middle;
-  border-radius: 30px;
+  border-radius: 50px;
 }
+
 .cards {
   margin-top: -30px;
 }
@@ -348,8 +349,6 @@ body {
   opacity: 1;
   transition-duration: 2s;
   visibility: visible;
-  background: linear-gradient(#000000c6, #000000c6, #000000c6, #000000c6);
-  background-radius: 30px;
 }
 
 .search__middle {
