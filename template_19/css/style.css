@@ -165,7 +165,7 @@
     text-align: center;
     flex-direction: column;
     justify-content: center;
-    position: absolute;
+    position: fixed;
     top: -150%;
     left: 0;
     width: 100%;
