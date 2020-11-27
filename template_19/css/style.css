@@ -610,6 +610,7 @@ body {
   .hero__main--text {
     font-size: 40px;
     line-height: 45px;
+    padding: 0 15px;
   }
 }
 
